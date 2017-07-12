@@ -1,0 +1,10 @@
+name: AutoJumpAndRun
+author: Tailo
+version: 1.6
+
+main: me.Tailo.AutoJumpAndRun.System.main
+
+commands:
+  ajar:
+    description: Set the spawnlocation
+    usage: /ajar setspawn

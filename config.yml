@@ -1,0 +1,105 @@
+#AutoJumpAndRun by Tailo Version 1.6
+#
+#IN ORDER TO APPLY THE CHANGES YOU HAVE TO RELOAD THE SERVER
+#
+#The ID of the block a player should move in to start the AutoJumpAndRun. Set to '-1' for every block.
+startblockid: 72
+#
+#The ID of the block a player should move on to start the AutoJumpAndRun (The block under 'startblockid'). Set to '-1' for every block.
+startblock1downid: 41
+#
+#WARNING: Do not set 'startblockid' AND 'startblock1downid' to '-1'
+#
+#The ID of the block a player should jump from.
+fromblockid: 159
+#
+#The ID of the block a player should jump to.
+toblockid: 35
+#
+#The ID of the color or type of the blocks from 'fromblockid' and 'toblockid'. Will be picked randomly on the start of an AutoJumpAndRun.
+blockcolors:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+#
+#The radius around the block from 'startblockid' in x and z direction a player will be randomly teleported to when starting the AutoJumpAndRun.
+startradius: 5
+#
+#The minimum added height to the block from 'startblockid' a player should be randomly teleported to when starting the AutoJumpAndRun.
+minstartheight: 5
+#
+#The maximum added height to the block from 'startblockid' a player should be randomly teleported to when starting the AutoJumpAndRun
+maxstartheight: 10
+#
+#The minimum distance from the block the player stands on to the block the player should jump on when the block is on the same height.
+mindistancenormal: 2
+#
+#The maximum distance from the block the player stands on to the block the player should jump on when the block is on the same height.
+maxdistancenormal: 4
+#
+#The minimum distance from the block the player stands on to the block the player should jump on when the block is one block higher than the block he jumps from.
+mindistancey1: 2
+#
+#The maximum distance from the block the player stands on to the block the player should jump on when the block is one block higher than the block he jumps from.
+maxdistancey1: 3
+#
+#The percentage that the block a player should jump on is one block higher than the block he jumps from.
+chanceyup: 25
+#
+#The maximal distance a player is allowed to be under the block he has to jump to without removing his AutoJumpAndRun.
+removedistance: 1
+#
+#The sound that will be played when a new block is spawning.
+spawnsound:
+#
+#The sound that will be played when a player failed a jump and the AutoJumpAndRun gets removed.
+fallsound:
+#
+#If you are using 1.8 and below you can find all sounds here: https://jd.bukkit.org/org/bukkit/Sound.html If you are using 1.9 and above you can find all sounds here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+#
+#A countdown for the player to jump on the next block. Set to '-1' to disable.
+countdown: 5
+#
+#The color of the bar for the elapsed time.
+elapsedtimecolor: '&c&l'
+#
+#The color of the bar for the left time.
+lefttimecolor: '&a&l'
+#
+#All color and formatting codes can be found here: http://minecraft.gamepedia.com/Formatting_codes
+#
+#Maximal height the AutoJumpAndRun can go.
+maxheight: 256
+#
+#If the player falls should he be teleportet to the spawn set with '/ajar setspawn'?
+usespawn: false
+#
+#Should the amount of successful jumps be shown in the xp-bar?
+xpbarcount: true
+#
+#Use colormenu for changing the color of the AutoJumpAndRun while jumping?
+colormenu: true
+#
+#The slot for the colormenu.
+colormenuslot: 5
+#
+#The name of the colormenu.
+colormenuname: '&9&lChoose color'
+#
+#The sound that will be played when picked a color form the colormenu.
+colorpicksound:
+#
+#The world in which the AutoJumpAndRun should be enabled.
+world: world
